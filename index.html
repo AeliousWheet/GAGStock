@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grow a Garden Stock</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="checkLogin()">
+  <div class="container">
+    <aside class="sidebar">
+      <h2>Filters</h2>
+      <input type="text" id="search" placeholder="Search item...">
+      <h3>Rarities</h3>
+      <div id="rarity-filters"></div>
+      <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+    </aside>
+    <main>
+      <h1>🌼 Grow a Garden Stock</h1>
+      <div id="items"></div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
